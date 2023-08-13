@@ -1,30 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/maven-v4_0_0.xsd http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.joseph</groupId>
-    <artifactId>usermanager</artifactId>
-    <packaging>war</packaging>
-    <name>User Manager</name>
-    <version>1.0</version>
-    <description>
-        The User Manager is an administration interface for Intranet Users, Groups, Applications, and Permissions.
-    </description>
-    <url>http://projects.joseph.com/usermanager</url>
-    <inceptionYear>2006</inceptionYear>
-    <issueManagement>
-        <system>Bug Tracker</system>
-        <url>http://bugtracker.joseph.com</url>
-    </issueManagement>
-    <developers>
-        <developer>
-            <id>lforehand</id>
-            <name>Luke Forehand</name>
-            <email>lforehand@parts-unltd.com</email>
-            <organization>Joseph Corporation</organization>
-            <organizationUrl>http://wiki.josephnet.com</organizationUrl>
-            <roles>
-                <role>Java Developer</role>
-            </roles>
-        </developer>
-    </developers>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.7.14</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+  <groupId>com.star.agile.assignment</groupId>
+  <artifactId>springboot-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>springboot-demo</name>
+  <description>Demo project for Spring Boot</description>
+  <properties>
+    <java.version>1.8</java.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

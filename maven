@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/maven-v4_0_0.xsd http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.joseph</groupId>
+    <artifactId>usermanager</artifactId>
+    <packaging>war</packaging>
+    <name>User Manager</name>
+    <version>1.0</version>
+    <description>
+        The User Manager is an administration interface for Intranet Users, Groups, Applications, and Permissions.
+    </description>
+    <url>http://projects.joseph.com/usermanager</url>
+    <inceptionYear>2006</inceptionYear>
+    <issueManagement>
+        <system>Bug Tracker</system>
+        <url>http://bugtracker.joseph.com</url>
+    </issueManagement>
+    <developers>
+        <developer>
+            <id>lforehand</id>
+            <name>Luke Forehand</name>
+            <email>lforehand@parts-unltd.com</email>
+            <organization>Joseph Corporation</organization>
+            <organizationUrl>http://wiki.josephnet.com</organizationUrl>
+            <roles>
+                <role>Java Developer</role>
+            </roles>
+        </developer>
+    </developers>
